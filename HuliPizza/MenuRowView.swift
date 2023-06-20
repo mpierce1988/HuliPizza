@@ -14,6 +14,9 @@ struct MenuRowView: View {
         HStack(alignment: .top, spacing: 15) {
             if let image = UIImage(named: "\(item)_sm") {
                 Image(uiImage: image)
+                    .clipShape(Circle())
+                    .padding(.trailing, -25)
+                    .padding(.leading, -15)
             } else {
                 Image("surfboard_sm")
             }
