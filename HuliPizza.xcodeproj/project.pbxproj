@@ -17,6 +17,7 @@
 		B9045FE92A421640006DB595 /* MenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9045FE82A421640006DB595 /* MenuRowView.swift */; };
 		B9045FEB2A42164D006DB595 /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9045FEA2A42164D006DB595 /* OrderRowView.swift */; };
 		B9045FED2A421665006DB595 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9045FEC2A421665006DB595 /* HeaderView.swift */; };
+		B9045FEF2A425020006DB595 /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9045FEE2A425020006DB595 /* RatingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		B9045FE82A421640006DB595 /* MenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRowView.swift; sourceTree = "<group>"; };
 		B9045FEA2A42164D006DB595 /* OrderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
 		B9045FEC2A421665006DB595 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		B9045FEE2A425020006DB595 /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			children = (
 				B9045FD42A420819006DB595 /* HuliPizzaApp.swift */,
 				B9045FD62A420819006DB595 /* ContentView.swift */,
+				B9045FEE2A425020006DB595 /* RatingsView.swift */,
 				B9045FE22A4215AD006DB595 /* OrderView.swift */,
 				B9045FE42A4215CF006DB595 /* MenuView.swift */,
 				B9045FE62A421636006DB595 /* MenuItemView.swift */,
@@ -159,6 +162,7 @@
 				B9045FE52A4215CF006DB595 /* MenuView.swift in Sources */,
 				B9045FD72A420819006DB595 /* ContentView.swift in Sources */,
 				B9045FD52A420819006DB595 /* HuliPizzaApp.swift in Sources */,
+				B9045FEF2A425020006DB595 /* RatingsView.swift in Sources */,
 				B9045FE92A421640006DB595 /* MenuRowView.swift in Sources */,
 				B9045FEB2A42164D006DB595 /* OrderRowView.swift in Sources */,
 				B9045FE72A421636006DB595 /* MenuItemView.swift in Sources */,
