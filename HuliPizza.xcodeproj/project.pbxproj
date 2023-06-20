@@ -11,6 +11,12 @@
 		B9045FD72A420819006DB595 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9045FD62A420819006DB595 /* ContentView.swift */; };
 		B9045FD92A42081A006DB595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9045FD82A42081A006DB595 /* Assets.xcassets */; };
 		B9045FDC2A42081A006DB595 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9045FDB2A42081A006DB595 /* Preview Assets.xcassets */; };
+		B9045FE32A4215AD006DB595 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9045FE22A4215AD006DB595 /* OrderView.swift */; };
+		B9045FE52A4215CF006DB595 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9045FE42A4215CF006DB595 /* MenuView.swift */; };
+		B9045FE72A421636006DB595 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9045FE62A421636006DB595 /* MenuItemView.swift */; };
+		B9045FE92A421640006DB595 /* MenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9045FE82A421640006DB595 /* MenuRowView.swift */; };
+		B9045FEB2A42164D006DB595 /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9045FEA2A42164D006DB595 /* OrderRowView.swift */; };
+		B9045FED2A421665006DB595 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9045FEC2A421665006DB595 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		B9045FD62A420819006DB595 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B9045FD82A42081A006DB595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9045FDB2A42081A006DB595 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B9045FE22A4215AD006DB595 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		B9045FE42A4215CF006DB595 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		B9045FE62A421636006DB595 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+		B9045FE82A421640006DB595 /* MenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRowView.swift; sourceTree = "<group>"; };
+		B9045FEA2A42164D006DB595 /* OrderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
+		B9045FEC2A421665006DB595 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				B9045FD42A420819006DB595 /* HuliPizzaApp.swift */,
 				B9045FD62A420819006DB595 /* ContentView.swift */,
+				B9045FE22A4215AD006DB595 /* OrderView.swift */,
+				B9045FE42A4215CF006DB595 /* MenuView.swift */,
+				B9045FE62A421636006DB595 /* MenuItemView.swift */,
+				B9045FE82A421640006DB595 /* MenuRowView.swift */,
+				B9045FEA2A42164D006DB595 /* OrderRowView.swift */,
+				B9045FEC2A421665006DB595 /* HeaderView.swift */,
 				B9045FD82A42081A006DB595 /* Assets.xcassets */,
 				B9045FDA2A42081A006DB595 /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9045FE32A4215AD006DB595 /* OrderView.swift in Sources */,
+				B9045FE52A4215CF006DB595 /* MenuView.swift in Sources */,
 				B9045FD72A420819006DB595 /* ContentView.swift in Sources */,
 				B9045FD52A420819006DB595 /* HuliPizzaApp.swift in Sources */,
+				B9045FE92A421640006DB595 /* MenuRowView.swift in Sources */,
+				B9045FEB2A42164D006DB595 /* OrderRowView.swift in Sources */,
+				B9045FE72A421636006DB595 /* MenuItemView.swift in Sources */,
+				B9045FED2A421665006DB595 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
