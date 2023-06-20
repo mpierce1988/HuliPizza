@@ -17,8 +17,17 @@ struct MenuItemView: View {
             } else {
                 Image("surfboard_lg")
             }
-            Text("Margharita")
-            Text("Description")
+            VStack(alignment: .leading) {
+                Text("Margharita")
+                    .font(.title)
+                    .fontWeight(.semibold)
+                ScrollView {
+                    Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mollis tristique arcu, eu feugiat erat. Sed vitae ligula lacus. Quisque fermentum magna vel purus egestas, sit amet commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mollis tristique arcu, eu feugiat erat. Sed vitae ligula lacus. Quisque fermentum magna vel purus egestas, sit amet commodo.")
+                        .font(.custom("Georgia", size: 18, relativeTo: .body))
+                }
+            }
+            
+                
         }
     }
 }
