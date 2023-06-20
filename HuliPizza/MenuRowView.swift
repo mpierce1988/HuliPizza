@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MenuRowView: View {
-    var item: Int = 1
+    var item: Int
     
     var body: some View {
         HStack(alignment: .top, spacing: 15) {
@@ -28,6 +28,6 @@ struct MenuRowView: View {
 
 struct MenuRowView_Previews: PreviewProvider {
     static var previews: some View {
-        MenuRowView()
+        MenuRowView(item: 1)
     }
 }

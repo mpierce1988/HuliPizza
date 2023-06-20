@@ -12,7 +12,7 @@ struct MenuView: View {
         
         ScrollView {
             ForEach(1...25, id: \.self) { item in
-                MenuRowView()
+                MenuRowView(item: item)
             }
         }
     }

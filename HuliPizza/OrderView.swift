@@ -8,13 +8,10 @@
 import SwiftUI
 
 struct OrderView: View {
-    var orders: [Int] = [1, 2, 3, 4, 6]
+    var orders: [Int]
     
     var body: some View {
         VStack {
-            
-            HeaderView()
-            
             Label {
                 Text(59.99, format: .currency(code: "CAD"))
             } icon: {
@@ -26,7 +23,7 @@ struct OrderView: View {
                 Spacer()
             }
             ForEach(orders, id: \.self) { order in
-                OrderRowView()
+                OrderRowView(order: order)
             }
         }
     }
@@ -34,6 +31,6 @@ struct OrderView: View {
 
 struct OrderView_Previews: PreviewProvider {
     static var previews: some View {
-        OrderView()
+        OrderView(orders: [1, 2, 3, 4, 6])
     }
 }
