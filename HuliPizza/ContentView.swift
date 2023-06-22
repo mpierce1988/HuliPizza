@@ -19,12 +19,15 @@ struct ContentView: View {
                 OrderView(orders: orders)
             } else {
                 MenuItemView()
+                    .padding(5)
+                    .background(Color("Sky"), in: RoundedRectangle(cornerRadius: 10))
                 MenuView()
             }
             
             Spacer()
         }
         .padding()
+        .background(.linearGradient(colors: [.cyan, Color("Surf"), Color("Sky"), .white], startPoint: .topLeading, endPoint: .bottom))
     }
 }
 

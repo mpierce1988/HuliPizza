@@ -22,6 +22,8 @@ struct MenuItemView: View {
                     .font(.title)
                     .fontWeight(.semibold)
                     .foregroundColor(Color("Surf"))
+                    .padding(.leading)
+                    .background(.linearGradient(colors: [Color("Surf"), Color("Sky").opacity(0.1)], startPoint: .leading, endPoint: .trailing), in: Capsule())
                 ScrollView {
                     Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mollis tristique arcu, eu feugiat erat. Sed vitae ligula lacus. Quisque fermentum magna vel purus egestas, sit amet commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mollis tristique arcu, eu feugiat erat. Sed vitae ligula lacus. Quisque fermentum magna vel purus egestas, sit amet commodo.")
                         .font(.custom("Georgia", size: 18, relativeTo: .body))

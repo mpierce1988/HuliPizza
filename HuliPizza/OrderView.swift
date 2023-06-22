@@ -28,6 +28,7 @@ struct OrderView: View {
                     .padding([.leading, .trailing], 7)
             }
         }
+        .background(Color("Surf"))
     }
 }
 
