@@ -13,6 +13,7 @@ struct MenuItemView: View {
             if let image = UIImage(named: "0_lg") {
                 Image(uiImage: image)
                     .cornerRadius(10)
+                    .shadow(color: .teal, radius: 5, x: 8, y: 8)
                     
             } else {
                 Image("surfboard_lg")
@@ -21,6 +22,7 @@ struct MenuItemView: View {
                 Text("Margharita")
                     .font(.title)
                     .fontWeight(.semibold)
+                    .foregroundStyle(.thickMaterial)
                     .foregroundColor(Color("Surf"))
                     .padding(.leading)
                     .background(.linearGradient(colors: [Color("Surf"), Color("Sky").opacity(0.1)], startPoint: .leading, endPoint: .trailing), in: Capsule())

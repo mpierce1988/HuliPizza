@@ -15,7 +15,8 @@ struct HeaderView: View {
                 .scaledToFit()
             Text("Huli Pizza Company")
                 .font(.custom("Georgia", size: 30, relativeTo: .title))
-                .foregroundColor(Color("Sky"))
+                .foregroundStyle(.regularMaterial)
+                .fontWeight(.semibold)
         }
     }
 }
