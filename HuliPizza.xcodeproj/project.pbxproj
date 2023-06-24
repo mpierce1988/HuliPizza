@@ -18,6 +18,10 @@
 		B9045FEB2A42164D006DB595 /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9045FEA2A42164D006DB595 /* OrderRowView.swift */; };
 		B9045FED2A421665006DB595 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9045FEC2A421665006DB595 /* HeaderView.swift */; };
 		B9045FEF2A425020006DB595 /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9045FEE2A425020006DB595 /* RatingsView.swift */; };
+		B90F50C22A47961D00EB8210 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F50BE2A47961D00EB8210 /* OrderModel.swift */; };
+		B90F50C32A47961D00EB8210 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F50BF2A47961D00EB8210 /* MenuItem.swift */; };
+		B90F50C42A47961D00EB8210 /* OrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F50C02A47961D00EB8210 /* OrderItem.swift */; };
+		B90F50C52A47961D00EB8210 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F50C12A47961D00EB8210 /* MenuModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,10 @@
 		B9045FEA2A42164D006DB595 /* OrderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
 		B9045FEC2A421665006DB595 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		B9045FEE2A425020006DB595 /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
+		B90F50BE2A47961D00EB8210 /* OrderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		B90F50BF2A47961D00EB8210 /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		B90F50C02A47961D00EB8210 /* OrderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderItem.swift; sourceTree = "<group>"; };
+		B90F50C12A47961D00EB8210 /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,7 @@
 				B9045FE82A421640006DB595 /* MenuRowView.swift */,
 				B9045FEA2A42164D006DB595 /* OrderRowView.swift */,
 				B9045FEC2A421665006DB595 /* HeaderView.swift */,
+				B90F50BD2A47961D00EB8210 /* Model Code */,
 				B9045FD82A42081A006DB595 /* Assets.xcassets */,
 				B9045FDA2A42081A006DB595 /* Preview Content */,
 			);
@@ -86,6 +95,17 @@
 				B9045FDB2A42081A006DB595 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B90F50BD2A47961D00EB8210 /* Model Code */ = {
+			isa = PBXGroup;
+			children = (
+				B90F50BE2A47961D00EB8210 /* OrderModel.swift */,
+				B90F50BF2A47961D00EB8210 /* MenuItem.swift */,
+				B90F50C02A47961D00EB8210 /* OrderItem.swift */,
+				B90F50C12A47961D00EB8210 /* MenuModel.swift */,
+			);
+			path = "Model Code";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,11 +180,15 @@
 			files = (
 				B9045FE32A4215AD006DB595 /* OrderView.swift in Sources */,
 				B9045FE52A4215CF006DB595 /* MenuView.swift in Sources */,
+				B90F50C22A47961D00EB8210 /* OrderModel.swift in Sources */,
 				B9045FD72A420819006DB595 /* ContentView.swift in Sources */,
 				B9045FD52A420819006DB595 /* HuliPizzaApp.swift in Sources */,
+				B90F50C42A47961D00EB8210 /* OrderItem.swift in Sources */,
 				B9045FEF2A425020006DB595 /* RatingsView.swift in Sources */,
 				B9045FE92A421640006DB595 /* MenuRowView.swift in Sources */,
 				B9045FEB2A42164D006DB595 /* OrderRowView.swift in Sources */,
+				B90F50C52A47961D00EB8210 /* MenuModel.swift in Sources */,
+				B90F50C32A47961D00EB8210 /* MenuItem.swift in Sources */,
 				B9045FE72A421636006DB595 /* MenuItemView.swift in Sources */,
 				B9045FED2A421665006DB595 /* HeaderView.swift in Sources */,
 			);
