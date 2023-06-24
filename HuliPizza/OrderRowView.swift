@@ -11,10 +11,14 @@ struct OrderRowView: View {
     var order: Int
     
     var body: some View {
-        VStack(alignment: .leading) {
-            Text("Your Order Item \(order)")
+        VStack() {
+            HStack {
+                Text("Your Order Item \(order)")
+                Spacer()
+            }
             HStack(alignment: .firstTextBaseline) {
-                Text("1 @ $19.90")
+                Text(1, format: .number)
+                Text(19.90, format: .currency(code: "CAD"))
                 Spacer()
                 Text(19.90, format: .currency(code: "CAD"))
                     .fontWeight(.semibold)
@@ -22,9 +26,7 @@ struct OrderRowView: View {
             
         }
         .padding()
-        .background(Color(.lightGray))
-        .backgroundStyle(.ultraThinMaterial)
-        .clipShape(RoundedRectangle(cornerRadius: 10))
+        
         
     }
 }
