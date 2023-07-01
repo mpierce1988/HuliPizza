@@ -47,7 +47,7 @@ struct MenuItemView: View {
             }
             
             Button {
-                addedItem.toggle()
+                addedItem = true
                 orders.addOrder(item, quantity: 1)
             } label: {
                 Spacer()

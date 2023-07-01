@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct OrderView: View {
-    @StateObject var orders: OrderModel
+    @ObservedObject var orders: OrderModel
     
     var body: some View {
         VStack {
