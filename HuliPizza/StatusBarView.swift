@@ -29,8 +29,7 @@ struct StatusBarView: View {
             Text(orders.orderTotal, format: .currency(code: "CAD"))
             
         }
-        .background(.ultraThinMaterial)
-        .foregroundColor(Color.black)
+        .foregroundColor(.white)
         .font(.title2)
     }
 }
