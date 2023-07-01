@@ -22,6 +22,7 @@
 		B90F50C32A47961D00EB8210 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F50BF2A47961D00EB8210 /* MenuItem.swift */; };
 		B90F50C42A47961D00EB8210 /* OrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F50C02A47961D00EB8210 /* OrderItem.swift */; };
 		B90F50C52A47961D00EB8210 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F50C12A47961D00EB8210 /* MenuModel.swift */; };
+		B9C7B66F2A4FB22D00A554F2 /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C7B66E2A4FB22D00A554F2 /* StatusBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		B90F50BF2A47961D00EB8210 /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		B90F50C02A47961D00EB8210 /* OrderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderItem.swift; sourceTree = "<group>"; };
 		B90F50C12A47961D00EB8210 /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		B9C7B66E2A4FB22D00A554F2 /* StatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			children = (
 				B9045FD42A420819006DB595 /* HuliPizzaApp.swift */,
 				B9045FD62A420819006DB595 /* ContentView.swift */,
+				B9C7B66E2A4FB22D00A554F2 /* StatusBarView.swift */,
 				B9045FEE2A425020006DB595 /* RatingsView.swift */,
 				B9045FE22A4215AD006DB595 /* OrderView.swift */,
 				B9045FE42A4215CF006DB595 /* MenuView.swift */,
@@ -188,6 +191,7 @@
 				B9045FE92A421640006DB595 /* MenuRowView.swift in Sources */,
 				B9045FEB2A42164D006DB595 /* OrderRowView.swift in Sources */,
 				B90F50C52A47961D00EB8210 /* MenuModel.swift in Sources */,
+				B9C7B66F2A4FB22D00A554F2 /* StatusBarView.swift in Sources */,
 				B90F50C32A47961D00EB8210 /* MenuItem.swift in Sources */,
 				B9045FE72A421636006DB595 /* MenuItemView.swift in Sources */,
 				B9045FED2A421665006DB595 /* HeaderView.swift in Sources */,
