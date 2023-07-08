@@ -16,7 +16,7 @@ struct MenuGridView: View {
         menu.first(where: {$0.id == id}) ?? noMenuItem
     }
     
-    @State var selectedItem:MenuItem = noMenuItem
+    @Binding var selectedItem:MenuItem
    
     @State private var favouritedItems: [MenuItem] = []
     // Three column layout of griditems
@@ -32,11 +32,14 @@ struct MenuGridView: View {
                 ForEach(favorites.sorted(), id: \.self) { item in
                     FavoriteTileView(menuItem: menu(id: item))
                         .matchedGeometryEffect(id: item, in: nspace)
+                        .onTapGesture {
+                            selectedItem = menu(id: item)
+                        }
                         .onLongPressGesture {
                             if let index = favorites.firstIndex(where: {$0 == item}) {
                                 favorites.remove(at: index)
                             }
-                        }
+                        }                        
                 }
             }
             Text("\(selectedItem.name)")
@@ -49,10 +52,11 @@ struct MenuGridView: View {
                                 .matchedGeometryEffect(id: item.id, in: nspace)
                                 .onTapGesture(count: 2) {
                                     if !favorites.contains(item.id) {
-                                       
-                                            favorites.append(item.id)
-                                        
+                                        favorites.append(item.id)
                                     }
+                                }
+                                .onTapGesture {
+                                    selectedItem = item
                                 }
                         }
                     }
@@ -65,6 +69,6 @@ struct MenuGridView: View {
 
 struct MenuGridView_Previews: PreviewProvider {
     static var previews: some View {
-        MenuGridView(menu: MenuModel().menu)
+        MenuGridView(menu: MenuModel().menu, selectedItem: .constant(noMenuItem))
     }
 }
