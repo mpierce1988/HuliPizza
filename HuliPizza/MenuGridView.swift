@@ -23,6 +23,7 @@ struct MenuGridView: View {
     let columnLayout = Array(repeating: GridItem(), count: 3)
     let favouritesColumnLayout = Array(repeating: GridItem(), count: 5)
   
+    @Namespace private var nspace
     
     var body: some View {
         
@@ -30,6 +31,7 @@ struct MenuGridView: View {
             LazyVGrid(columns: favouritesColumnLayout) {
                 ForEach(favorites.sorted(), id: \.self) { item in
                     FavoriteTileView(menuItem: menu(id: item))
+                        .matchedGeometryEffect(id: item, in: nspace)
                         .onLongPressGesture {
                             if let index = favorites.firstIndex(where: {$0 == item}) {
                                 favorites.remove(at: index)
@@ -43,9 +45,13 @@ struct MenuGridView: View {
                     ForEach(menu) {item in
                         if !favorites.contains(item.id) {
                             MenuItemTileView(menuItem: item)
+                                .animation(.easeOut(duration: 0.5), value: favorites)
+                                .matchedGeometryEffect(id: item.id, in: nspace)
                                 .onTapGesture(count: 2) {
                                     if !favorites.contains(item.id) {
-                                        favorites.append(item.id)
+                                       
+                                            favorites.append(item.id)
+                                        
                                     }
                                 }
                         }
@@ -53,6 +59,7 @@ struct MenuGridView: View {
                 }
             }
         }
+        
     }
 }
 
