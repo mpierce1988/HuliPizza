@@ -27,6 +27,7 @@
 		B95B38822A55E9300027BA9B /* MenuItemTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95B38812A55E9300027BA9B /* MenuItemTileView.swift */; };
 		B95B38842A55EA0B0027BA9B /* MenuGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95B38832A55EA0B0027BA9B /* MenuGridView.swift */; };
 		B95B38862A55ED1E0027BA9B /* FavoriteTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95B38852A55ED1E0027BA9B /* FavoriteTileView.swift */; };
+		B9767F5B2A5DD36C0091532B /* OrderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9767F5A2A5DD36C0091532B /* OrderDetailView.swift */; };
 		B9C7B66F2A4FB22D00A554F2 /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C7B66E2A4FB22D00A554F2 /* StatusBarView.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		B95B38812A55E9300027BA9B /* MenuItemTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemTileView.swift; sourceTree = "<group>"; };
 		B95B38832A55EA0B0027BA9B /* MenuGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuGridView.swift; sourceTree = "<group>"; };
 		B95B38852A55ED1E0027BA9B /* FavoriteTileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteTileView.swift; sourceTree = "<group>"; };
+		B9767F5A2A5DD36C0091532B /* OrderDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetailView.swift; sourceTree = "<group>"; };
 		B9C7B66E2A4FB22D00A554F2 /* StatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +95,7 @@
 				B95B387F2A5520300027BA9B /* OrderItemView.swift */,
 				B95B38812A55E9300027BA9B /* MenuItemTileView.swift */,
 				B95B38852A55ED1E0027BA9B /* FavoriteTileView.swift */,
+				B9767F5A2A5DD36C0091532B /* OrderDetailView.swift */,
 				B95B38832A55EA0B0027BA9B /* MenuGridView.swift */,
 				B9045FE22A4215AD006DB595 /* OrderView.swift */,
 				B9045FE42A4215CF006DB595 /* MenuView.swift */,
@@ -210,6 +213,7 @@
 				B9045FE92A421640006DB595 /* MenuRowView.swift in Sources */,
 				B95B38862A55ED1E0027BA9B /* FavoriteTileView.swift in Sources */,
 				B9045FEB2A42164D006DB595 /* OrderRowView.swift in Sources */,
+				B9767F5B2A5DD36C0091532B /* OrderDetailView.swift in Sources */,
 				B90F50C52A47961D00EB8210 /* MenuModel.swift in Sources */,
 				B9C7B66F2A4FB22D00A554F2 /* StatusBarView.swift in Sources */,
 				B90F50C32A47961D00EB8210 /* MenuItem.swift in Sources */,
